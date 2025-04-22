@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculo de IMC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
+        <h1>Calculo de IMC</h1>
+        <form action="" method="get">
+            <input type="number" name="altura" id="altura" placeholder="Altura (m)" step="0.01" required>
+            <input type="number" name="peso" id="peso" placeholder="Peso (kg)" step="0.01" required>
+            <input type="submit" onclick="CalculoDeIMC()" value="Calcular IMC">
+        </form>
+
+        <h2>Seu IMC é de: <br><span id="resultado"></span></h2>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
