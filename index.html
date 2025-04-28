@@ -9,13 +9,17 @@
 <body>
     <main>
         <h1>Calculo de IMC</h1>
-        <form action="" method="get">
-            <input type="number" name="altura" id="altura" placeholder="Altura (m)" step="0.01" required>
-            <input type="number" name="peso" id="peso" placeholder="Peso (kg)" step="0.01" required>
+        <div>
+            <input type="number" name="altura" id="altura" placeholder="Altura (m)" >
+            <input type="number" name="peso" id="peso" placeholder="Peso (kg)">
             <input type="submit" onclick="CalculoDeIMC()" value="Calcular IMC">
-        </form>
+        </div>
 
-        <h2>Seu IMC é de: <br><span id="resultado"></span></h2>
+        <h2>Seu IMC é de:</h2>
+        <br>
+        <h2 id="resultado"></h2>
+        <p id="resumoIMC"></p> 
+        <img src="https://www.saudebemestar.pt/media/89347/obesidade.jpgs" alt="">
     </main>
     <script src="script.js"></script>
 </body>

@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #bec5d4b4;
+    background-color: #061129b4;
     color: #333;
     height: 100vh;
     display: flex;
@@ -13,7 +13,7 @@ body{
     justify-content: center;
 }
 main{
-    background-color: aliceblue;
+    background-color: rgb(210, 222, 233);
     box-shadow: 1px 1px 5px #00000093;
     border-radius: 10px;
     display: flex;
@@ -25,7 +25,7 @@ main{
     flex-direction: column;
 }
 
-form{ 
+div{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
